@@ -1,0 +1,135 @@
+/*-----------------------------------------------------------------------------------
+       Responsive CSS INDEX
+    ===================
+    
+    1. common css
+    2. Header css
+    3. Main Slider css
+    4. Noon villas information css
+    5. Noon villas project css
+    6. Noon villas information second css
+    7. footer css
+    8. villa plan page css
+    9. Gallery page css
+    10. about page css
+    11. contact-us page css
+-----------------------------------------------------------------------------------*/
+/*----------------------------------------*/
+/*  1. common css
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  2. Header css
+/*----------------------------------------*/
+@media only screen and (max-width: 767px){
+    .navbar
+    {
+        border-bottom-left-radius: 50px;
+    }
+    .logo img
+    {
+        max-width: 110px;
+    }
+}
+/*----------------------------------------*/
+/*  3. Main Slider css
+/*----------------------------------------*/
+
+/*----------------------------------------*/
+/*  4. Noon villas information css
+/*----------------------------------------*/
+@media only screen and (max-width: 767px){
+    .information-english::after
+    {
+        width: 250px;
+    }
+}
+/*----------------------------------------*/
+/*  5. Noon villas project css
+/*----------------------------------------*/
+@media only screen and (max-width: 767px){
+    .project-english
+    {
+        width: 100%;
+    }
+    .project-urdu
+    {
+        width: 100%;
+    }
+}
+/*----------------------------------------*/
+/*  6. Noon villas information second css
+/*----------------------------------------*/
+@media only screen and (max-width: 767px){
+    .information-english-second::after
+    {
+        width: 250px;
+    }
+}
+/*----------------------------------------*/
+/*  7. footer css
+/*----------------------------------------*/
+@media only screen and (max-width: 767px){
+    .footer-logo
+    {
+        text-align: center;
+    }
+    .footer-logo img
+    {
+        max-width: 200px;
+        margin-bottom: 10px;
+    }
+    .footer-logo::before
+    {
+        width: 100%;
+        border-bottom: 1px solid #afb9b7;
+        border-right: none;
+    }
+    .footer-menu ul
+    {
+        text-align: center;
+    }
+    .footer-social-media
+    {
+        justify-content: center;
+        padding: 10px;
+    }
+    .footer-social-media::after
+    {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        border-top: 1px solid #ffffff;
+    }
+    .footer-map
+    {
+        padding: 20px;
+    }
+}
+/*----------------------------------------*/
+/*  8. villa plan page css
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  9. Gallery page css
+/*----------------------------------------*/
+
+
+/*----------------------------------------*/
+/*  10. about page css
+/*----------------------------------------*/
+@media only screen and (max-width: 767px){
+    .about-information-english::after
+    {
+        width: 250px;
+    }
+}
+/*----------------------------------------*/
+/*  11. contact-us page css
+/*----------------------------------------*/

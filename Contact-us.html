@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noon Villas- Contact-us</title>
+     <!-- Bootstrap CSS -->
+     <link rel="stylesheet" href="./css/bootstrap/css/bootstrap.min.css">
+     <link rel="stylesheet" href="./css/slick-slider/css/slick.css">
+     <link rel="stylesheet" href="./css/style.css">
+     <link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css">
+     <link rel="stylesheet" href="./css/responsive.css">
+</head>
+<body>
+<div id="main">
+<!-- Header  -->
+<header> 
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
+        <a class="navbar-brand logo" href="#">
+            <img src="./image/logo.png" alt="">
+         </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="Villas.html">Villas</a>
+            <a class="nav-link" href="gallery.html">Gallery</a>
+            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link active" href="Contact-us.html">Contact us</a>
+        </div>
+        <div class="social-media">
+            <i class="fa fa-youtube-play" aria-hidden="true"></i>
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+        </div>
+        </div>
+        </div>
+    </nav>    
+</header>
+<!-- Slider  -->
+    <div class="main-slider">
+        <div class="plan-images">
+            <img src="./image/villa-banner-1.png" alt="Villa Banner"/>
+        </div>
+        <div class="plan-images">
+        <img src="./image/villa-banner-2.png" alt="Villa Banner"/>
+        </div> 
+        <div class="plan-images">
+            <img src="./image/villa-banner-3.png" alt="Villa Banner"/>
+        </div>
+    </div>
+<!-- Contact us section  -->
+<section class="contact-us">
+    <div class="container"> 
+        <div class="row">
+            <div class="col-md-12">
+                <div class="Contact-form">              
+                    <form action="#" method="post" role="form" class="">    
+                        <div class="form-group">
+                        <input type="text" name="name" class="form-control" id="name" placeholder="Name" required/>
+                        </div>  
+                        <div class="form-group contact-textarea">               
+                            <textarea class="form-control" name="message" rows="8" required></textarea>
+                        </div>
+                        <div class="contact-btn">
+                        <button type="submit">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+   
+</div>
+ <!-- footer  -->
+ <section class="footer-section">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-3 col-sm-10 col-md-9">
+                <div class="footer-logo">
+                <img src="./image/footer-logo.png" alt="" >
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-10 col-md-9 footer-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="Villas.html">Villas</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="Contact us.html">Contact us</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-sm-10 col-md-9">
+                <div class="footer-social-media">
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                    <i class="fa fa-instagram" aria-hidden="true"></i>
+                </div>    
+            </div>
+            <div class="col-lg-3 col-sm-10 col-md-9 footer-map">
+                <img src="./image/footer-map.png" alt="" class="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-sm-12 col-md-12 footer-sub-menu">
+                <p>©2021 AlAujairy | Developed by Simplified Informatics</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="./js/jquery-3.5.1.slim.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./css/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/navbar.js"></script>
+<script src="./css/slick-slider/js/slick.js"></script>
+<script>
+$('.main-slider').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  fade: true,
+  arrows:false,
+  autoplay:true,
+  autoplaySpeed:2000,
+  cssEase: 'linear'
+});
+</script>
+
+</body>
+</html>
